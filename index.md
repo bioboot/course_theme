@@ -1,5 +1,6 @@
 ---
 layout: page
+title: ""
 ---
 
 # Bioinformatics (Winter 2025)
