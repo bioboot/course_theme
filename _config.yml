@@ -3,12 +3,20 @@
 # Permalinks
 permalink:        pretty
 
-# Setup
+# Setup edit these for your course
 title:            BIMM911
 tagline:          'An example course'
 description:      'An example course <a href="http://jekyllrb.com" target="_blank">Jekyll</a> website theme used by <a href="http://thegrantlab.org" target="_blank">@Barry</a>.'
-url:              ''
-baseurl:          /
+
+# Set to `https://<username>.github.io` when hosting on GitHub Pages
+url:              https://bioboot.github.io
+
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository
+baseurl:          /course_theme
+
+# Set to '' when running locally or building for hosting elsewhere
+#url:              ''
+#baseurl:          /
 
 author:
   name:           'Barry Grant'
