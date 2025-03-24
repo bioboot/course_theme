@@ -3,12 +3,12 @@
   <div class="container sidebar-sticky">
 
     <div class="sidebar-image">
-      <img src="/assets/img/UCSanDiegoLogo-White.png" alt="UCSD">
+      <img src="{{ site.baseurl }}/assets/img/UCSanDiegoLogo-White.png" alt="UCSD">
     </div>
 
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </h1>
@@ -16,7 +16,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Overview</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Overview</a>
 
 <!-- 
       {% comment %}
@@ -34,10 +34,10 @@
       {% endfor %}
 -->
 
-      <a class="sidebar-nav-item" href="/schedule/">Schedule</a>
-      <a class="sidebar-nav-item" href="/setup/">Computer Setup</a>
-      <a class="sidebar-nav-item" href="/ethics/">Ethics Code</a>
-      <a class="sidebar-nav-item" href="{{ site.corelinks.syllabus }}">Syllabus</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/schedule/">Schedule</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/setup/">Computer Setup</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/ethics/">Ethics Code</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}{{ site.corelinks.syllabus }}">Syllabus</a>
       <a class="sidebar-nav-item" href="{{ site.corelinks.piazza }}">Piazza</a>      
       <a class="sidebar-nav-item" href="{{ site.social.gradescope }}">GradeScope</a>
     </nav>

@@ -22,6 +22,19 @@ This is essentially the Hyde theme by [Mark Otto](https://github.com/mdo), with 
 
 Download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
+Essentially, this involved editing `url` and `baseurl` in the  `_config.yml` file to match your Github repo setup or local config.
+
+To replicate what you see on GitHub pages we can use `bundle`. First install the dependencies:
+
+```
+bundle install
+```
+
+Once the dependencies are installed, run Jekyll with:
+
+```
+bundle exec jekyll serve
+```
 
 ## Options
 

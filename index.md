@@ -54,7 +54,7 @@ Please help us improve this course by completing by completing these surveys bef
 ## Acknowledgments:
 To further support learning data analysis with the R environment we gratefully acknowledge support from [DataCamp](https://www.datacamp.com/). DataCamp are providing our enrolled students with access to over 300 hours of data science videos and interactive coding challenges aimed at strengthening their data science skills.  
 
-[![datacamp]({{ site.baseurl }}/jetstream/images/DataCamp.png)](https://www.datacamp.com/){:.no-push-state}  
+[![datacamp](https://bioboot.github.io/bimm143_W25/jetstream/images/DataCamp.png)](https://www.datacamp.com/){:.no-push-state}  
 
 
 ## Additional key resources  
