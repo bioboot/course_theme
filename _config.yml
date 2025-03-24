@@ -12,7 +12,7 @@ description:      'An example course <a href="http://jekyllrb.com" target="_blan
 url:              https://bioboot.github.io
 
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-#baseurl:          /course_theme
+baseurl:          /course_theme/
 
 # Set to '' when running locally or building for hosting elsewhere
 #url:              ''
