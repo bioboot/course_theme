@@ -16,7 +16,7 @@ baseurl:          /course_theme/
 
 # Set to '' when running locally or building for hosting elsewhere
 #url:              ''
-baseurl:          /
+#baseurl:          /
 
 author:
   name:           'Barry Grant'
