@@ -1,0 +1,44 @@
+# Dependencies
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            BIMM911
+tagline:          'An example course'
+description:      'An example course <a href="http://jekyllrb.com" target="_blank">Jekyll</a> website theme used by <a href="http://thegrantlab.org" target="_blank">@Barry</a>.'
+url:              ''
+baseurl:          /
+
+author:
+  name:           'Barry Grant'
+  url:            http://thegrantlab.org
+
+paginate:         5
+
+# Custom vars
+social:
+  piazza:          &piazza  https://piazza.com/ucsd/spring2025/bimm143/
+  gradescope:      &gradescope https://www.gradescope.com/courses/1001084    
+  youtube:         &youtube https://www.youtube.com/playlist?list=PLtYfizZe9rnrI-6BFsUqKTX7F2zebfCIQ
+  email:           mailto:<bjgrant@ucsd.edu>
+
+# - Corelinks
+#   Links to class resources that are linked to frequently such as piazza etc.
+#   These should be updated for each new quarter/class.
+#   The ampsand &piazza here is a varable asignment that can be access with 
+#   a *piazza later in this ymal data file.
+#  TODO: uodate GRADEBOOK student and instructor link & OFICEHOUR
+corelinks:
+  syllabus:       &syllabus /class-material/BIMM143_S25_syllabus.pdf
+  piazza:         *piazza 
+  gradescope:     *gradescope 
+  youtube:        *youtube 
+  questionnaire:  https://forms.gle/9FKDzd4z5Rh3RhEE6
+  gradebook:      https://docs.google.com/spreadsheets/d/1gBg4iAB1FEO7QxruxTV9fFaUSeaWiyHnSvInL0FODcY/edit?usp=sharing
+  officehours:    https://ucsd.zoom.us/j/97520924322?pwd=OWwycDlZakpFNU9uRjVqOGw2c0xqZz09#success
+  officetime:     'After class on Thur @ 12:10pm'
+
+
+
+plugins: [jekyll-paginate]
